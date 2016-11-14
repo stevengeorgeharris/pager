@@ -1,0 +1,17 @@
+{
+  "intents": [
+    {
+      "intent": "SendMessage",
+      "slots": [ 
+        {
+            "name": "messages",
+            "type": "COMMON_MESSAGES"
+        },
+        {
+          "name": "name",
+          "type": "LIST_OF_CONTACTS"
+        }
+      ]
+    }
+  ]
+}

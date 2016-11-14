@@ -1,0 +1,2 @@
+SendMessage send {message}
+SendMessage send {message} to {name}
