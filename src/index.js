@@ -1,7 +1,7 @@
 'use strict';
 
 const TwilioSkill = require('./skill.js');
-const Global = require('../assets/exports.js');
+const Global = require('./exports.js');
 const accountSid = Global.accountSid;
 const authToken = Global.authToken;
 const t = require('twilio');
