@@ -24,7 +24,7 @@ Twilio.prototype.intentHandlers = {
     sendMessage(intent, session, response);
   },
   'AMAZON.HelpIntent': function (intent, session, response) {
-    response.ask('You can say hello to me!', 'You can say hello to me!');
+    response.ask('You can send a message by saying send.');
   }
 };
 
